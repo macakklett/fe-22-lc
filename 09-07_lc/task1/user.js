@@ -23,6 +23,7 @@ export class User {
   }
 
   getFullName() {
+    console.log(`${this.firstName} ${this.lastName}`);
     return `${this.firstName} ${this.lastName}`;
   }
 }
