@@ -25,4 +25,9 @@ const getTopStudent = students => {
 // testing
 const student1 = new Student(1, 'Tom', 'Doe', 'FE', 100);
 const student2 = new Student(2, 'Ivan', 'Shev', 'Shvd', 190);
-console.log(getTopStudent([student1, student2]));
+const student3 = new Student(3, 'Alice', 'Johnson', 'Math', 85);
+const student4 = new Student(4, 'Bob', 'Smith', 'Physics', 92);
+const student5 = new Student(5, 'Carol', 'Williams', 'Chemistry', 78);
+console.log(getTopStudent([student1, student2, student3, student4]));
+console.log(getTopStudent([student1, student4, student5]));
+console.log(getTopStudent([student3, student5]));
