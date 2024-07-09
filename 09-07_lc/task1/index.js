@@ -1,4 +1,4 @@
-import { User } from './user';
+import { User } from './user.js';
 import { Student } from './student.js';
 
 // const user1 = new User(1, 'Tom', 'Holland');
